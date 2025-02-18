@@ -1,0 +1,21 @@
+day 2
+
+data structure:
+storing and arranging data in memory in some particular way so as to achieve some efficiency
+--------------------------------------------------------------------------------------------
+array:
+where elements are stored in continuous memory locations
+memory inefficient-size is fixed
+time efficient-access any element in 1 unit time
+simplest ds and easy to use with the help of subscript
+note:ds to which we can apply subscript is called as ordered ds.
+--------------------------------------------------------------------------------------------
+arithmetic operators:
++,-,*,/,%,^,//,**
+
+I/P are numbers
+O/P are numbers
+All are binary operators
+Used with infix operation
+
+All operators except ** has left to right associativity
