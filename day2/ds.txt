@@ -19,3 +19,7 @@ All are binary operators
 Used with infix operation
 
 All operators except ** has left to right associativity
++ and - have the least precedency
+what is evaluated first is the operator having highest precedence i.e **
+therefore precedence takes over associativity
+infix->postfix and then evaluated
