@@ -1,16 +1,15 @@
-a=[]
-k=0
-n=int(input("enter the number of oranges"))
-for i in range(n):
-    a=int(input("enter the number"))
-for i in range(n):
-    if a[i]<=a[n-1]:
-        temp=a[i]
-        a[i]=a[k]
-        a[k]=temp
-        k+=1
-temp=a[k]
-a[k]=a[i]
-a[i]=temp
-for i in range(n):
-    print(a[i])
+def partionArray(numbers):
+    j = 0
+    pivot = numbers[-1]
+    for i in range(len(numbers)):
+        if numbers[i] < pivot:
+            numbers[i], numbers[j] = numbers[j], numbers[i] # move the smaller element to the left
+            j += 1
+    numbers[j], numbers[-1] = numbers[-1], numbers[j] # place the pivot element in its final position
+
+print('Enter the input numbers')
+numbers = list(map(int, input().split()))
+
+print(f'Input Array is: {numbers}')
+partionArray(numbers)
+print(f'Partitioned Array is: {numbers}')
