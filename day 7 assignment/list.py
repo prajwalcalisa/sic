@@ -1,4 +1,4 @@
-mport collections
+import collections
 
 # Create two linked lists using deque
 linked_list1 = collections.deque()
